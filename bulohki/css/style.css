@@ -1,0 +1,343 @@
+*, *::after, *::before{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+ 
+} 
+body { 
+   /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 53px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+ 
+} .swiper {
+    width: 600px;
+    height: 300px;
+  } .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+.container { 
+    max-width: 1110px; 
+    margin: 0 auto;  
+} 
+
+.button { 
+    border: 2px solid firebrick; 
+    padding: 20px;
+    background-color: #F7654A;
+}
+.button span{
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: rgb(184, 11, 11);
+    margin-top: 5px;
+}
+.header{
+    background-image: url(../img/Rectangle\ \(4\).jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h1 h1{
+    color: #fff;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4em;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 112px;
+
+}
+
+.h1 p{
+    color: #fff;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125em;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 35px;
+
+
+}
+
+.sss {
+    background-color:#F7F7F7;
+    padding: 57px 130px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 0px 30px;
+    transform: translate(0, -125px);
+}
+
+.l1 span {
+    display: block;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.125em;
+    line-height: 137px;
+    text-align: center;
+    text-transform: uppercase;
+
+/* Accent */
+
+color: #F7654A;
+}
+
+.l1 p {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 27px;
+    text-align: center;
+    
+    color: #999999;
+}
+
+.p1 {
+    width: 350px;
+}
+
+.p1 p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+
+    color: #999999;
+}
+
+.polosa {
+    width: 55px;
+    height: 6px;
+    background-color: #F7654A;
+}
+
+.in {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.p1 h3 {
+    color: #404149;
+    text-align: left;
+} 
+
+.h_request {
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.request_text {
+    font-size: 18px;
+    font-family: Oswald;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+.request {
+    background: #F7654A;
+    height: 209px;
+    margin-top: 150px;
+    text-align: left;
+    color: #fff;
+}
+
+.req {
+    padding-top: 35px;
+}
+
+.req1 {
+    padding-top: 35px;
+}
+
+.req button {
+    float: right;
+    margin-top: -80px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button img {
+    margin-bottom: -3px;
+    margin-right: 7px;
+}
+
+.work {
+    margin-top: 100px;
+}
+
+.block {
+    width: 350px;
+    height: 250px;
+    background-color:#F7F7F7;
+}
+
+.ggg {
+    padding-top: 50px;
+    width: 350px;
+    height: 250px;
+    background-color:#F7F7F7;
+    margin-bottom: 20px;
+}
+
+.portfolio {
+    margin-top: 150px;
+}
+
+.working {
+    background: #F7654A;
+    height: 175px;
+    margin-top: 150px;
+    text-align: left;
+    color: #fff;
+}
+
+.request-partner {
+    background:  #404149;
+    height: 250px;
+    margin-top: 150px;
+    text-align: left;
+    color: #fff;
+}
+
+.rev {
+    width: 350px;
+}
+
+.rev h2 {
+    color: #404149;
+    text-align: left;
+    font-size: 80px;
+} 
+
+.rev p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+
+    color: #999999;
+}
+
+.rev h4 {
+    color: #404149;
+    text-align: left;
+} 
+
+.but {
+    float: right;
+    margin-top: -60px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h4 b {
+    color: #F7654A;
+}
+
+.reviews {
+    margin-top: 150px;
+}
+
+.revg {
+    width: 200px;
+}
+
+.revg .image1 {
+    margin-top: 8px;
+}
+
+.revg h3 b {
+    color: #404149;
+}
+
+@media all and (max-width: 1024px) {
+    
+}
+
+@media all and (max-width: 768px)  {
+    body {
+        font-size: 12px;
+    }
+
+    .h1 p{
+        padding-top: 10px;
+    
+    }
+
+    .button { 
+        padding: 15px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+
+    .h1 p{
+        padding-top: 10px;
+    
+    }
+
+    .button { 
+        padding: 15px;
+    }
+}
